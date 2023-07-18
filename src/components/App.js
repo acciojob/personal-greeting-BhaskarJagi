@@ -9,9 +9,7 @@ const App = () => {
     <div>
         <label for="name">Enter your name: </label>
         <input type="text" className="name" onChange={(event)=>setName(event.target.value)}/>
-        {
-          name && <p>Hello {name}! </p>
-        }
+        <p>Hello {name}!</p>
     </div>
   )
 }
